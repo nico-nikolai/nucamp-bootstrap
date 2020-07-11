@@ -40,9 +40,7 @@
             <button
               type="button"
               class="btn btn-lg btn-info"
-              data-toggle="modal"
-              data-target="#reserveModal"
-              id="#reserveModal"
+              id="reserveButton"
             >
               Reserve Campsite
             </button>
@@ -53,7 +51,7 @@
     <div id="reserveModal" class="modal fade bd-example-modal-lg" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header bg-info text-light">
+          <div class="modal-header">
             <h3 class="modal-title">Reserve Campsite</h3>
             <button
               type="button"
@@ -174,7 +172,7 @@
             </li>
           </ul>
           <span class="navbar-text ml-auto">
-            <a role="button" data-toggle="modal" data-target="#loginModal">
+            <a role="button" id="loginButton" id="loginModal">
               <i class="fa fa-sign-in"></i> Login
             </a>
           </span>
